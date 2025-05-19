@@ -1,0 +1,39 @@
+
+.vscode/sftp.json
+### Django ###
+venv/
+__pycache__/
+*.pyc
+*.py[cod]
+*.pyo
+*.log
+*.pot
+*.sqlite3
+*.log
+media/
+staticfiles/
+static/
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.venv
+
+# Ignore local environment settings
+# .env
+
+# Editor and IDE specific files
+.vscode/
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+migrations/
+
+_static/mock/mock_restrictions*.json
+_static/mock/mock_*.json
+node_modules/
