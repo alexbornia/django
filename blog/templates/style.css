@@ -1,0 +1,92 @@
+body{
+    background-image: -webkit-linear-gradient(top, #AACFEF 0%, #FFFFFF 15%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    
+}
+img {height: 100px;width: 65px; object-fit: cover; object-position: center;}
+
+h1{text-align: center; 
+    padding:    100px ;
+    margin: 0;
+    color: #0000CC;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size: 60px; 
+    text-align: center;
+    z-index: 0;
+    position: relative;
+}
+h3{text-align: center;
+    color: #0000CC;
+    margin: 50px
+
+}
+    
+
+.menu{text-align: center; margin-bottom: 50px; width: 100%;}
+.menu a{
+    width: 320px;
+    height: 50px;
+    color: #808080;
+    text-align: center;
+    font-size: 26px;
+    background-color: #d6eaf8;
+    border: 2px solid slategrey;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+
+.tabella{
+    width: fit-content;
+    font-size: large;
+    margin: 0 auto;
+
+}
+
+.menu a.selected{
+    color: blue;
+    
+    
+}
+
+.b{
+    width: fit-content; display: inline-block;
+    
+}
+
+footer{
+    background-color: #AACFEF;
+    text-align: center;
+    margin-top: 70px;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    font-weight: bold;
+    
+}
+
+header{
+    height:fit-content;
+    /* background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #AACFEF 100%); */
+    /* z-index: -1; */
+    position: relative;
+}
+.clapper {
+    position: absolute;
+    width: 90px; /* dimensione del ciak */
+    height: 90px;
+    background-image: url('clapperboard-isolated-on-a-transparent-background-png.webp'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    z-index: -1;
+}
+
+table{
+    z-index: 1;
+    background-color: white;
+}

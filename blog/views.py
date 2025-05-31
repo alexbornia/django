@@ -5,4 +5,10 @@ def home(request):
         'messaggio': 'Benvenuto nella home!'
     }
 
-    return render(request, 'home.html', context)
+    return render(request, 'indice.html', context)
+def film(request):
+    return render(request, 'film.html')
+def musica(request):
+    return render(request, 'musica.html')
+def indice(request):
+    return render(request, 'indice.html')
